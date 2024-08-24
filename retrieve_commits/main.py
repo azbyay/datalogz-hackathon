@@ -49,5 +49,6 @@ def main():
         # Cleanup the temporary directory
         temp_dir.cleanup()
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
+print("nice")
