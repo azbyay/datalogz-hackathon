@@ -1,0 +1,110 @@
+[
+    {
+        "commit_hash": "d7a9bb505df6f630f9bab3b30c889e52f22eb9ea",
+        "author_name": "Gretchenmarina",
+        "author_email": "60773741+Gretchenmarina@users.noreply.github.com",
+        "date": "2020-09-18 15:06:10",
+        "message": "Update model-card.md\n\nUpdated from May 2020 to September 2020 version of model card.",
+        "files_changed": [
+            "model-card.md"
+        ]
+    },
+    {
+        "commit_hash": "97920c013f22aa5842bfc8b420f7419ba4ca409f",
+        "author_name": "Gretchenmarina",
+        "author_email": "60773741+Gretchenmarina@users.noreply.github.com",
+        "date": "2020-09-18 13:53:41",
+        "message": "Update README.md",
+        "files_changed": [
+            "README.md"
+        ]
+    },
+    {
+        "commit_hash": "c903216fba7f53bf3b0bcb852f3ed0bf5cc8676a",
+        "author_name": "Gretchenmarina",
+        "author_email": "60773741+Gretchenmarina@users.noreply.github.com",
+        "date": "2020-09-18 13:00:18",
+        "message": "Merge pull request #5 from Gretchenmarina/patch-1\n\nCreate model-card.md",
+        "files_changed": [
+            "model-card.md"
+        ]
+    },
+    {
+        "commit_hash": "abe1278f78978dc2df479646bb02ac3f638d653b",
+        "author_name": "Gretchenmarina",
+        "author_email": "60773741+Gretchenmarina@users.noreply.github.com",
+        "date": "2020-09-18 12:57:49",
+        "message": "Create model-card.md",
+        "files_changed": [
+            "model-card.md"
+        ]
+    },
+    {
+        "commit_hash": "1159bb7fc90b2b40809ed0f68fbd2960b62bd938",
+        "author_name": "Tom B Brown",
+        "author_email": "nottombrown@gmail.com",
+        "date": "2020-06-01 11:07:03",
+        "message": "Merge pull request #4 from openai/tom-dataset-statistics\n\nAdd dataset statistics",
+        "files_changed": [
+            "README.md",
+            "dataset_statistics/README.md",
+            "dataset_statistics/languages_by_character_count.csv",
+            "dataset_statistics/languages_by_document_count.csv",
+            "dataset_statistics/languages_by_word_count.csv"
+        ]
+    },
+    {
+        "commit_hash": "cf8c236919d8dae322be5535410853f20b0b4c7a",
+        "author_name": "Tom Brown",
+        "author_email": "nottombrown@gmail.com",
+        "date": "2020-06-01 10:15:04",
+        "message": "Add dataset statistics",
+        "files_changed": [
+            "README.md",
+            "dataset_statistics/README.md",
+            "dataset_statistics/languages_by_character_count.csv",
+            "dataset_statistics/languages_by_document_count.csv",
+            "dataset_statistics/languages_by_word_count.csv"
+        ]
+    },
+    {
+        "commit_hash": "6ab54103e1c6085381640609493c3a86d51c099d",
+        "author_name": "Pranav Shyam",
+        "author_email": "pranavshyam13@gmail.com",
+        "date": "2020-05-28 17:57:12",
+        "message": "Update README.md",
+        "files_changed": [
+            "README.md"
+        ]
+    },
+    {
+        "commit_hash": "12766ba31aa6de490226e8517de75329e0d12dd4",
+        "author_name": "Benjamin Mann",
+        "author_email": "ben@openai.com",
+        "date": "2020-05-28 13:23:07",
+        "message": "Initial commit",
+        "files_changed": [
+            "175b_samples.jsonl",
+            "README.md",
+            "data/cycle_letters_in_word.jsonl.gz",
+            "data/five_digit_addition.jsonl",
+            "data/five_digit_subtraction.jsonl",
+            "data/four_digit_addition.jsonl",
+            "data/four_digit_subtraction.jsonl",
+            "data/mid_word_1_anagrams.jsonl.gz",
+            "data/mid_word_2_anagrams.jsonl.gz",
+            "data/random_insertion_in_word.jsonl.gz",
+            "data/reversed_words.jsonl.gz",
+            "data/single_digit_three_ops.jsonl",
+            "data/six_digit_addition.jsonl",
+            "data/six_digit_subtraction.jsonl",
+            "data/sum_of_digits.jsonl",
+            "data/three_digit_addition.jsonl",
+            "data/three_digit_subtraction.jsonl",
+            "data/two_digit_addition.jsonl",
+            "data/two_digit_multiplication.jsonl",
+            "data/two_digit_subtraction.jsonl",
+            "overlap_frequency.md"
+        ]
+    }
+]

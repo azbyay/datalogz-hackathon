@@ -2,6 +2,7 @@ import os
 import tempfile
 from git import Repo
 import json
+import sys
 
 def clone_repo(repo_url):
     # Create a temporary directory to clone the repository
@@ -28,9 +29,8 @@ def get_commit_history(repo_path):
     
     return commits
 
-def main():
-    # URL of the open-source repository you want to analyze
-    repo_url = 'https://github.com/openai/gpt-3.git'
+def main(repo_url):
+    
     output_file = 'commit_history.json'
     
     # Clone the repository into a temporary directory
@@ -49,6 +49,7 @@ def main():
         # Cleanup the temporary directory
         temp_dir.cleanup()
 
-# if __name__ == '__main__':
-#     main()
-print("nice")
+
+if __name__ == '__main__':
+    repo_url = sys.argv[1]
+    main(repo_url)
